@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Cabin&display=swap");
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #9aa5ce;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  margin-top: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: lightgray;
+  width: 300px;
+  height: 300px;
+}
+
+/* CSS */
+.btn {
+  font-family: "Cabin", sans-serif;
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 10px;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover {
+  background-color: #f082ac;
+}
